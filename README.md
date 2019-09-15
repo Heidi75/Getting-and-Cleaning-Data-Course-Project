@@ -2,7 +2,7 @@
  This repo explains how all of the scripts work and how they are connected.
  1.  There is this README
  2.  A CodeBook MD with link to data and the codebook and description of the data used and process
- 3.  The script
+ 3.  The script run_analysis.R
  4.  The Tidydata
  
  This is from the Getting and Cleaning Data Course Project
