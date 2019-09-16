@@ -70,4 +70,6 @@ setWithActivityNames <- merge(setForMeanAndStd, activities_names,
 
 ## Extracts the target variables to create the target data frame
 target_data <- AllData[ , setWithActivityNames]
+
+write.table(target_data, "target_data.txt", row.name=FALSE)
 target_data
