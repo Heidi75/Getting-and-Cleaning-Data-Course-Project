@@ -47,4 +47,4 @@ Activity_Names_Y are
 Feature names_X (561 of them )
 
 So we know that the x access (horizontal) of the database takes the feature names
-and the Y access (verticle)  is the subject names
+and the Y access (verticle)  is the Activity names
