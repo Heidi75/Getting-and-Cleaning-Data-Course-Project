@@ -1,0 +1,36 @@
+subsetting
+single brackets [ ] for matrix
+double brackets and $ for list elements
+
+A dataframe is a list of all vectors of the same length 
+
+this will selects elements in the list  - all results is a vector
+dataframe$columnname =
+dataframe[["columnname"]] =
+dataframe[[columnnumber]]
+
+new lists with only the elements makes a new dataframe
+with single brackets
+dataframe["columnname"] =
+dataframe[columnnumber]
+
+Adding columns ( This is important when adding the activities )
+columnvector<-c(a,b,c,d, )
+dataframe$columnvectorname<-columnvector =
+dataframe[["columnvectorname"]]
+
+Adding columns with cbind ( Must look at which columns add up we can see besides feature x and y the others are all single vector columns, 
+train vectors match with training data and test vectors match with testing data)
+Add rows with rbind  (x and y feature dataset should have the matching rowns but the test is the shorter data set and train is the larger one
+as they have the same amount of columns one should go on top of the other and they should match up )
+
+
+#put the test data on top of the training data and bind with row bind
+featuredatabase<-rbind(feature_test_x,feature_train_x)
+activity_vector<-rbind(activity_test_y,activity_train_y)
+subject_vector<-rbind(subject_test,subject_train)
+
+#then we can combine the column which we think that the subect
+#subject and activity vector
+subject_activity_df<-cbind(subject_vector,activity_vector)
+total_dataset<-cbind(subject_activity_df,featuredatabase)
