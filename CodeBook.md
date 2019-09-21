@@ -29,14 +29,14 @@ performed to clean up the data called CodeBook.md. You should also include a REA
 This repo explains how all of the scripts work and how they are connected.
 
 Subject_test is a Vector with one column named "V1" and 2947 rows numbered accordingly
-Feature_test is a is a table with 561 Columns named "V1"- "V561"  and 2947 rows numbered accordingly
-activity_test is a Vector with one column named "V1" and 2947 rows numbered accordingly
+Feature_test_X is a is a table with 561 Columns named "V1"- "V561"  and 2947 rows numbered accordingly
+activity_test_Y is a Vector with one column named "V1" and 2947 rows numbered accordingly
 
 Subject_train is a Vector with one column named "V1" and 7352 rows numbered accordingly
-Feature_train is a is a table with 561 Columns named "V1"- "V561"  and 7352 rows numbered accordingly
-activity_train is a Vector with one column named "V1" and 7352 rows numbered accordingly
+Feature_train_X is a is a table with 561 Columns named "V1"- "V561"  and 7352 rows numbered accordingly
+activity_train_Y is a Vector with one column named "V1" and 7352 rows numbered accordingly
 
-Activity_Names are
+Activity_Names_Y are
 1.  Walking
 2.  Walking_upstairs
 3.  Walking_downstairs
@@ -44,4 +44,7 @@ Activity_Names are
 5.  Standing
 6.  Laying
 
-Feature names (561 of them )
+Feature names_X (561 of them )
+
+So we know that the x access (horizontal) of the database takes the feature names
+and the Y access (verticle)  is the subject names
