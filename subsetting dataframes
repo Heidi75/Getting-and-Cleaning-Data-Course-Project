@@ -34,3 +34,27 @@ subject_vector<-rbind(subject_test,subject_train)
 #subject and activity vector
 subject_activity_df<-cbind(subject_vector,activity_vector)
 total_dataset<-cbind(subject_activity_df,featuredatabase)
+
+The Activity Names is a database that looks like this
+column 1 is labeled activityID and column 2 is labeled activityType
+1	1	WALKING
+2	2	WALKING_UPSTAIRS
+3	3	WALKING_DOWNSTAIRS
+4	4	SITTING
+5	5	STANDING
+
+The names need to be matched to the activity vector as the ID's to be replaced with the type of activity
+
+The Features names look like this labled V1 and V2 it has 561 and these titles need to go on the top of the dataframe as
+the names of each columns of the datatframes. 
+1	1	tBodyAcc-mean()-X
+2	2	tBodyAcc-mean()-Y
+3	3	tBodyAcc-mean()-Z
+4	4	tBodyAcc-std()-X
+5	5	tBodyAcc-std()-Y
+6	6	tBodyAcc-std()-Z
+7	7	tBodyAcc-mad()-X
+8	8	tBodyAcc-mad()-Y
+9	9	tBodyAcc-mad()-Z
+10	10	tBodyAcc-max()-X
+6	6	LAYING
