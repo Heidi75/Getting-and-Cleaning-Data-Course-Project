@@ -27,3 +27,21 @@ performing the analysis, and
 3) a code book that describes the variables, the data, and any transformations or work that you 
 performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. 
 This repo explains how all of the scripts work and how they are connected.
+
+Subject_test is a Vector with one column named "V1" and 2947 rows numbered accordingly
+Feature_test is a is a table with 561 Columns named "V1"- "V561"  and 2947 rows numbered accordingly
+activity_test is a Vector with one column named "V1" and 2947 rows numbered accordingly
+
+Subject_train is a Vector with one column named "V1" and 7352 rows numbered accordingly
+Feature_train is a is a table with 561 Columns named "V1"- "V561"  and 7352 rows numbered accordingly
+activity_train is a Vector with one column named "V1" and 7352 rows numbered accordingly
+
+Activity_Names are
+1.  Walking
+2.  Walking_upstairs
+3.  Walking_downstairs
+4.  Sitting
+5.  Standing
+6.  Laying
+
+Feature names (561 of them )
