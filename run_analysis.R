@@ -102,9 +102,10 @@ names(MeanandStdDataset)
 ##################################################################################  
 MeanandStdDataset$test.subject <- as.factor(MeanandStdDataset$test.subject)
 MeanandStdDataset <- data.table(MeanandStdDataset)  
+#dim gets the dimentions of rows and columns which is 81
 dim(MeansandSTDdataset)
 
-
+#Aggregate() Function in R Splits the data into subsets, computes summary statistics (mean) for each subsets and returns the result in a group by form.
 tidy_data_set <- aggregate(MeansandSTDdataset[,3:81], by = list(activityID = MeansandSTDdataset$activityID, test.subject = MeansandSTDdataset$test.subject),FUN = mean)
 
 
