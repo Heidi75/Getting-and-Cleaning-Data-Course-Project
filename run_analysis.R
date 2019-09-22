@@ -43,8 +43,6 @@ featuredatabase<-rbind(feature_test_x,feature_train_x)
 activity_vector<-rbind(activity_test_y,activity_train_y)
 subject_vector<-rbind(subject_test,subject_train)
 
-
-
 #Bind dataframe 
 
 subject_activity_df<-cbind(subject_vector,activity_vector)
@@ -65,3 +63,4 @@ MeanandStdDataset<-
 # From the data set in step 4, creates a second, independent tidy data set with the 
 #average of each variable for each activity and each subject.
 
+tidy_data_set <-
