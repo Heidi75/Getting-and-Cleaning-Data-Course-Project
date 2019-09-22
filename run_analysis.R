@@ -64,3 +64,6 @@ MeanandStdDataset<-
 #average of each variable for each activity and each subject.
 
 tidy_data_set <-
+
+#Write to a text file
+write.table(tidy_data_set, "tidy_data_set/text", row.names = FALSE, quote =FALSE )
