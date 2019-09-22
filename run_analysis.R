@@ -75,6 +75,7 @@ columnsToKeep <- grepl("test.subject|activityID|mean|std", colnames(total_datase
 MeansandSTDdataset <- total_dataset[, columnsToKeep]
 
 ###########################################################################
+#Step-4
 #Change the column names so they are easier to read
 ##########################################################################
 names(MeansandSTDdataset)
