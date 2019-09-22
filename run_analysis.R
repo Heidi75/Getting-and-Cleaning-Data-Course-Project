@@ -102,7 +102,7 @@ names(MeanandStdDataset)
 ##################################################################################  
 MeanandStdDataset$test.subject <- as.factor(MeanandStdDataset$test.subject)
 MeanandStdDataset <- data.table(MeanandStdDataset)  
-#dim gets the dimentions of rows and columns which is 81
+#dim gets the dimentions of rows and columns which is 81 and we start at 3 to avoid the activityID and test.subject
 dim(MeansandSTDdataset)
 
 #Aggregate() Function in R Splits the data into subsets, computes summary statistics (mean) for each subsets and returns the result in a group by form.
