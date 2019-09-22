@@ -42,11 +42,13 @@ column 1 is labeled activityID and column 2 is labeled activityType
 3	3	WALKING_DOWNSTAIRS
 4	4	SITTING
 5	5	STANDING
+6	6	LAYING
 
 The names need to be matched to the activity vector as the ID's to be replaced with the type of activity
 
-The Features names look like this labled V1 and V2 it has 561 and these titles need to go on the top of the dataframe as
-the names of each columns of the datatframes. 
+The Features names (features_names_x) look like this labled V1 and V2 it has 561 and these titles need to go on the top of the dataframe as
+the names of each columns of the datatframes.   So we can changet the column names to c(,"features")  and we cange change the coulmn names for 
+featuredatabase<- 
 1	1	tBodyAcc-mean()-X
 2	2	tBodyAcc-mean()-Y
 3	3	tBodyAcc-mean()-Z
@@ -57,4 +59,4 @@ the names of each columns of the datatframes.
 8	8	tBodyAcc-mad()-Y
 9	9	tBodyAcc-mad()-Z
 10	10	tBodyAcc-max()-X
-6	6	LAYING
+
