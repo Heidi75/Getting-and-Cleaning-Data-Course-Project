@@ -46,7 +46,7 @@ activity_vector<-rbind(activity_test_y,activity_train_y)
 subject_vector<-rbind(subject_test,subject_train)
 
 
-#Bind dataframe 
+#Bind dataframe column binds
 
 subject_activity_df<-cbind(subject_vector,activity_vector)
 total_dataset<-cbind(subject_activity_df,featuredatabase)
