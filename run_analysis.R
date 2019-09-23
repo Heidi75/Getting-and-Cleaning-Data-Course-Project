@@ -52,7 +52,9 @@ subject_activity_df<-cbind(subject_vector,activity_vector)
 total_dataset<-cbind(subject_activity_df,featuredatabase)
 
 ##############################################################################
-#Step 3 replaces the activityID with the Activity names
+#Step 3 replaces the activityID with the Activity names ( I put step 3 
+# before step 2 because I think it is nicer to have the whole data set then 
+# just the subset labeled. 
 #############################################################################
 
 
